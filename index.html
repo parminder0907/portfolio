@@ -4,13 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'PT Sans', sans-serif;
+        }
+        h1 {
+            margin: 20px;
+            padding: 20px;
+            color: rgb(209, 31, 0);
+        }
+        li {
+            font-size: 20px;
+            margin: 20px;
+            padding: 30px;
+            background-color: tomato;
+            display: inline-block;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+            height: 100px;
+            cursor: pointer;            
+        }
+        li:hover  {
+            transform: scale(1.03);
+            background-color: rgba(255, 99, 71, 0.863);
+        }
+        a {
+            font-size: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            color: white;
+        }
+        p {
+            color: rgba(255, 255, 255, 0.787);
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Portfolio</h1>
+    <h1>My projects</h1>
     <ul>
-        <li><a href="DOM_pigGame/index.html">Pig Game</a></li>
-        <li><a href="Budgety/index.html">Budgety</a></li>
-        <li><a href="dist/index.html">forkify</a></li>
+        <li>
+            <a href="DOM_pigGame/index.html">Pig Game
+                <p>A dice rolling game</p>
+            </a>
+        </li>
+        <li>
+            <a href="Budgety/index.html">Budgety
+                <p>Keep track of your monthly budget</p>
+            </a>
+        </li>
+        <li>
+            <a href="dist/index.html">forkify
+                <p>Search over 1 million recipes</p>
+            </a>
+        </li>
     </ul>
 </body>
 </html>
