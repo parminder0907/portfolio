@@ -12,7 +12,7 @@ body {
     width: 98%;
     margin: 1vh 1%;
     border-radius: .5rem;
-    /* height: 96vh; */
+    height: 96vh;
 }
 .logo-svg {
     width: 5rem;
@@ -81,7 +81,7 @@ li {
     border-radius: 10px;
     text-align: center;
     width: 250px;
-    height: 100px;
+    height: 80px;
     cursor: pointer;            
 }
 li:hover  {
@@ -98,4 +98,12 @@ p {
     color: rgba(255, 255, 255, 0.787);
     font-size: 15px;
     font-weight: 500;
+}
+
+.foot {
+    margin-top: -10px;
+    color: #999;
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 12px;
 }
