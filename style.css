@@ -76,7 +76,7 @@ li {
     font-size: 20px;
     margin: 20px;
     padding: 30px;
-    background-color: rgb(151, 87, 255);
+    background-color: rgba(151, 87, 255, 0.9);
     display: inline-block;
     border-radius: 10px;
     text-align: center;
